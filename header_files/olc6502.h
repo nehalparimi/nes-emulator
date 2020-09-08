@@ -144,6 +144,7 @@ class olc6502 {
             uint8_t(olc6502::*address)(void) = nullptr;     // function pointer to the addressing mode
             uint8_t cycles = 0;
         }
-
+        
+        std::vector<INSTRUCTION> lookup;
 
 }
